@@ -1,12 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - print the alphabet in lower and uppercase
- * Return: Always 0
- */
+*main - print alphabet in lower and uppercase
+*Return: (0) 
+*/
 
 int main(void)
-{ 
+{
 	char lower = 'a';
 	char upper = 'A';
 
@@ -21,4 +21,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
