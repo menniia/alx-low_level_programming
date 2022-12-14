@@ -14,6 +14,12 @@ void times_table(void);
 int add(int, int);
 void print_to_98(int n);
 void print_times_table(int n);
+<<<<<<< HEAD
 
 #endif
 
+=======
+void num(int r, int n);
+
+#endif
+>>>>>>> 7c80e5d1c6b80a362b669dcd43bf99c35a02ea2c
