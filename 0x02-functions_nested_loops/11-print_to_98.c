@@ -1,20 +1,22 @@
-#include <stdio.h>
+#include "stdio.h"
 
 /**
- * main - Prints natural numbers below 1024 that are
- * multiplies of 3 or 5
- *
- * Return: Always 0.
+ * print_to_98 - Prints all natural numbers from input to 98,
+ *               in order separated by a comma followed by a space.
+ * @n: The number to begin counting at.
  */
-int main(void)
+void print_to_98(int n)
 {
-	int a, b;
-
-	for (a = 1; a < 1024; a++)
+	if (n >= 98)
 	{
-		if ((a % 3) == 0 || (a % 5) == 0)
-		b += a;
+		while (n > 98)
+			printf("%d, ", n--);
+		printf("%d\n", n);
 	}
-	printf("%d\n", b);
-	return (0);
+	else
+	{
+		while (n < 98)
+			printf("%d, ", n++);
+		printf("%d\n", n);
+	}
 }
